@@ -1,0 +1,117 @@
+.dashboard {
+  width: 100%;
+}
+.num {
+    display: flex;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avtar {
+    background-color: white;
+    border-radius: 30%;
+    margin-right: 10px;
+}
+.noti {
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.card1 {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    width: 8vw;
+    height: 70px;
+    background-color: white;
+    border-radius: 8px;
+    border-right: 5px solid red;
+}
+.add {
+    background-color: rgb(90, 116, 90);
+    border-radius: 30%;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+.icons {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.main_card {
+    width: 16vw;
+    height: 65vh;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    display: flex;
+}
+img {
+    width: 15vw;
+    object-fit: contain;
+}
+.details {
+    width: 25vw;
+    height: 65vh;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+   .main {
+      
+   }
+  }
+
+.nav1 {
+    color: rgb(88, 119, 88);
+    width: 22vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+button {
+    background-color:  rgb(88, 119, 88); 
+    border-radius: 3px;
+    color: white;
+}
+.Details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div p {
+    background-color: red;
+    margin-right: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
